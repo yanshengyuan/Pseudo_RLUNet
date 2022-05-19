@@ -1,0 +1,24 @@
+You choose Uformer...
+[INFO] Register zero_ops() for <class 'torch.nn.modules.dropout.Dropout'>.
+[INFO] Register count_convNd() for <class 'torch.nn.modules.conv.Conv2d'>.
+[INFO] Register count_relu() for <class 'torch.nn.modules.activation.LeakyReLU'>.
+[91m[WARN] Cannot find rule for <class 'torch.nn.modules.container.Sequential'>. Treat it as zero Macs and zero Params.[00m
+[91m[WARN] Cannot find rule for <class 'model.InputProj'>. Treat it as zero Macs and zero Params.[00m
+[91m[WARN] Cannot find rule for <class 'model.OutputProj'>. Treat it as zero Macs and zero Params.[00m
+[91m[WARN] Cannot find rule for <class 'torch.nn.modules.normalization.LayerNorm'>. Treat it as zero Macs and zero Params.[00m
+[INFO] Register count_linear() for <class 'torch.nn.modules.linear.Linear'>.
+[91m[WARN] Cannot find rule for <class 'model.LinearProjection'>. Treat it as zero Macs and zero Params.[00m
+[91m[WARN] Cannot find rule for <class 'torch.nn.modules.linear.Identity'>. Treat it as zero Macs and zero Params.[00m
+[91m[WARN] Cannot find rule for <class 'torch.nn.modules.activation.Softmax'>. Treat it as zero Macs and zero Params.[00m
+[91m[WARN] Cannot find rule for <class 'model.WindowAttention'>. Treat it as zero Macs and zero Params.[00m
+[91m[WARN] Cannot find rule for <class 'torch.nn.modules.activation.GELU'>. Treat it as zero Macs and zero Params.[00m
+[91m[WARN] Cannot find rule for <class 'model.LeFF'>. Treat it as zero Macs and zero Params.[00m
+[91m[WARN] Cannot find rule for <class 'model.LeWinTransformerBlock'>. Treat it as zero Macs and zero Params.[00m
+[91m[WARN] Cannot find rule for <class 'timm.models.layers.drop.DropPath'>. Treat it as zero Macs and zero Params.[00m
+[91m[WARN] Cannot find rule for <class 'torch.nn.modules.container.ModuleList'>. Treat it as zero Macs and zero Params.[00m
+[91m[WARN] Cannot find rule for <class 'model.BasicUformerLayer'>. Treat it as zero Macs and zero Params.[00m
+[91m[WARN] Cannot find rule for <class 'model.Downsample'>. Treat it as zero Macs and zero Params.[00m
+[INFO] Register count_convNd() for <class 'torch.nn.modules.conv.ConvTranspose2d'>.
+[91m[WARN] Cannot find rule for <class 'model.Upsample'>. Treat it as zero Macs and zero Params.[00m
+[91m[WARN] Cannot find rule for <class 'model.Uformer'>. Treat it as zero Macs and zero Params.[00m
+3906420736.0
